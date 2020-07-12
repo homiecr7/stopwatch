@@ -1,0 +1,50 @@
+.heading {
+    text-align: center;
+    color: #323A54;
+    text-decoration: none;
+}
+
+.fas {
+    font-size: 40px;
+    color: #323A54;
+}
+
+h1 {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.whole {
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #323A54;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px !important;
+}
+
+.btn {
+    margin-top: 17px;
+    display: inline-block;
+
+}
+
+.whole .btn button {
+    border-radius: 2px;
+    background-color: white;
+    border: none;
+}
+
+.whole .btn .btn1 {
+    margin: 10px;
+}
+
+.whole span {
+    color: black;
+    font-size: 38px;
+    margin-left: 4px;
+}

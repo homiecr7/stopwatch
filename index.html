@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Stopwatch</title>
+</head>
+
+<body>
+    <div class="heading">
+        <h1 style="display: inline;">Your Stopwatch</h1>
+    </div>
+    <div class=whole>
+        <div>
+            <h1 id="min">0</h1><span>:</span>
+            <h1 id="sec">0</h1><span>:</span>
+            <h1 id="msec">0</h1>
+        </div>
+
+        <div class=btn>
+            <button onclick="start()" onclick="disable()" class=" btn1" id="start1"
+                style=" width: 50px; height: 50px;"><a href="#"><i class="fas fa-play"></i></a></button>
+            <button onclick="pause()" class="btn1" style="width: 50px; height: 50px;"><a href="#"><i
+                        class="fas fa-pause"></i></a></button>
+            <button onclick="reset()" class="btn1" style="width: 50px; height: 50px;"><a href="#"><i
+                        class="fas fa-stop"></i></a></button>
+        </div>
+    </div>
+
+    <script src="app.JS"></script>
+</body>
+
+</html>
